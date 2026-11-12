@@ -31,6 +31,12 @@ const StaffSection = ({ full }) => (
         full && (
           <>
             <StaffCard
+              photo="/images/staff/andrea.jpg"
+              name="Andrea Campbell"
+              role="Partner"
+              bio="La Dra. Campbell posee una notoria trayectoria en medios de comunicación y, actualmente, desarrolla su labor profesional legal en el ámbito de los litigios civiles y siniestros, contando además con un posgrado en UBA relacionado al Derecho de los Seguros."
+            />
+            <StaffCard
               photo="/images/staff/rosario.jpg"
               name="Rosario Lawson"
               role="Abogada"
